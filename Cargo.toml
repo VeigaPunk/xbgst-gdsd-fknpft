@@ -1,0 +1,15 @@
+[package]
+name = "xbgst"
+version = "0.1.0"
+edition = "2021"
+description = "Grok Bot native xbgst — no xask, no Claude"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+clap = { version = "4", features = ["derive"] }
+thiserror = "2"
+
+[dev-dependencies]
+tempfile = "3"
