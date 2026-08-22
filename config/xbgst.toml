@@ -1,4 +1,4 @@
-# Cheap/fast default is Codex luna low+fast via sekhmet.
+# Cheap/fast default is Codex spark (gpt-5.3-codex-spark) low+fast via sekhmet; luna fallback.
 
 [lanes.grok]
 provider = "xai"
@@ -7,7 +7,7 @@ auth = "XAI_API_KEY"
 
 [lanes.codex]
 provider = "sekhmet"
-model = "gpt-5.6-luna"
+model = "gpt-5.3-codex-spark"
 service_tier = "fast"
 reasoning = "low"
 auth = "codex-titanium"
